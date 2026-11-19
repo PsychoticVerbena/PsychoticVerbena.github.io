@@ -2,45 +2,159 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-/* Modern Corporate Color Override */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+/* Executive Left-Aligned Hero Banner */
 .page-header {
-  background-color: #0f172a;
-  background-image: linear-gradient(120deg, #0f172a, #1e293b);
-  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #090d16 0%, #172554 100%);
+  text-align: left;
+  padding: 4rem 2rem;
+  border-bottom: 4px solid #2563eb;
+}
+
+.page-header .project-name,
+.page-header .project-tagline {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-name {
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.5rem;
 }
 
 .project-tagline {
-  opacity: 0.85;
+  font-size: 1.15rem;
+  color: #cbd5e1;
+  opacity: 1;
   font-weight: 400;
 }
 
-.main-content h1, 
-.main-content h2, 
-.main-content h3 {
-  color: #0f172a;
+/* Main Container */
+.main-content {
+  max-width: 920px;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Section Headers with Consulting Accent Bar */
+.section-label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: -0.01em;
-}
-
-.main-content h2 {
-  border-bottom: 2px solid #e2e8f0;
-  padding-bottom: 0.4rem;
-  margin-top: 2.5rem;
-}
-
-.main-content a {
+  letter-spacing: 0.1em;
   color: #2563eb;
-  font-weight: 500;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-label::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 3px;
+  background-color: #2563eb;
+}
+
+/* Elevated Corporate Cards */
+.corp-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 1.75rem;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.03);
+}
+
+.corp-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* KPI Metric Strip */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.kpi-box {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #2563eb;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+}
+
+.kpi-number {
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.2;
+}
+
+.kpi-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 0.25rem;
+}
+
+/* Skill & Tech Pills */
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.pill {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.25rem 0.7rem;
+  border-radius: 4px;
+}
+
+/* Crisp Corporate Tables */
+.main-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.25rem;
+  font-size: 0.92rem;
 }
 
 .main-content table th {
-  background-color: #f8fafc;
-  color: #0f172a;
+  background-color: #0f172a;
+  color: #ffffff;
   font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+}
+
+.main-content table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.main-content table tr:nth-child(even) {
+  background-color: #f8fafc;
 }

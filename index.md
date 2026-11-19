@@ -2,50 +2,114 @@
 layout: default
 ---
 
-| Core Focus | Tech Stack & Tools | Target Markets |
-| :--- | :--- | :--- |
-| Predictive Modeling & BI | Python, SQL, Tableau, Power BI | NYC, Boston, Chicago |
-| Technical PM & Delivery | Agile/Scrum, Git, Data Pipelines | Enterprise Analytics |
+<div class="section-label">Executive Summary & Core Competencies</div>
+<div class="corp-card">
+  <p style="margin-top: 0; font-size: 1.02rem; color: #334155;">
+    Data & Business Analyst and Technical Strategist combining Computer Science and Business Administration at Clemson University. Experienced in large-scale data engineering, predictive modeling, and agile delivery for enterprise analytics across NYC, Boston, and Chicago.
+  </p>
+  <div class="pill-row">
+    <span class="pill">Python (Pandas / Scikit-Learn)</span>
+    <span class="pill">SQL & Relational Databases</span>
+    <span class="pill">Tableau & Power BI</span>
+    <span class="pill">Predictive Modeling</span>
+    <span class="pill">Agile / Scrum Delivery</span>
+    <span class="pill">Stakeholder Strategy</span>
+  </div>
+</div>
 
-## Data Analytics Case Studies
+<div class="section-label">Data Analytics Case Studies</div>
+<div class="corp-card">
+  <h3>Modeling Revenue Determinants Across 687,000+ NY Businesses</h3>
+  <div class="pill-row">
+    <span class="pill">Python</span>
+    <span class="pill">Random Forest</span>
+    <span class="pill">Multiple Linear Regression</span>
+    <span class="pill">Data Engineering</span>
+  </div>
 
-### Modeling Revenue Determinants Across 687,000+ NY Businesses
-**Tech Stack:** Python, Scikit-Learn (Random Forest, Linear Regression), Data Engineering, Statistical Modeling
+  <div class="kpi-grid">
+    <div class="kpi-box">
+      <div class="kpi-number">86.1%</div>
+      <div class="kpi-label">Model R² (Up from 42.5%)</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-number">676,016</div>
+      <div class="kpi-label">Cleaned Business Records</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-number">-54.9%</div>
+      <div class="kpi-label">MAE Error Reduction</div>
+    </div>
+  </div>
 
-#### The Business Problem
-Understanding what structural factors—such as workforce size, corporate subsidiary status, and business registration type—actually drive annual revenue in dense markets, and proving why traditional linear forecasting fails at enterprise scale.
+  <h4>Business Objective</h4>
+  <p>Identify structural determinants of annual revenue across New York State enterprises—evaluating workforce scale, corporate subsidiary status, and registration types—and prove why non-linear ensembles outperform traditional linear forecasting at scale.</p>
 
-#### Data Engineering & Cleaning Pipeline
-To analyze this enterprise-scale dataset of 687,588 New York State business records, I built an end-to-end cleaning pipeline to handle extreme skew and categorical missingness:
-* **Diagnosed Bimodal Missingness:** Pruned columns with greater than 90% missingness (e.g., secondary addresses) and removed redundant HQ fields.
-* **Engineered Structural Signals:** Converted sparse categorical fields (such as `Subsidiary Code`) into binary flags (`1`/`0`), turning missing data into a measurable corporate-structure feature.
-* **Preserved Sample Size:** Applied constant imputation to columns missing 27–38% of records, retaining over 250,000 rows that would have otherwise been lost. Filtered core predictors down to **676,016 clean records**.
-* **Normalized Extreme Skew:** Applied log transformations to both `Yearly Revenue` and `Employee Total` to prevent mega-corporations from distorting model weights while retaining valid $0 revenue startups and R&D entities.
+  <h4>Data Engineering & Pipeline Architecture</h4>
+  <ul>
+    <li><strong>Diagnosed Bimodal Missingness:</strong> Pruned features exceeding 90% missingness (secondary addresses) and eliminated redundant headquarters fields.</li>
+    <li><strong>Engineered Structural Signals:</strong> Converted sparse categorical fields (such as <code>Subsidiary Code</code>) into binary indicators (<code>1</code>/<code>0</code>), transforming missingness into a measurable corporate-structure variable.</li>
+    <li><strong>Preserved Sample Integrity:</strong> Applied constant imputation across fields missing 27–38% of records, retaining over 250,000 rows and filtering core predictors (less than 1.5% missingness) to <strong>676,016 clean observations</strong>.</li>
+    <li><strong>Normalized Extreme Skew:</strong> Applied log transformations to <code>Yearly Revenue</code> and <code>Employee Total</code> to prevent mega-corporations from distorting weights while preserving valid $0 revenue startups and R&D entities.</li>
+  </ul>
 
-#### Machine Learning Validation & Business Impact
-I compared a baseline Multiple Linear Regression against a Random Forest regression model. The Random Forest model successfully captured non-linear relationships at the enterprise level, increasing revenue prediction accuracy ($R^2$) from **42.5% to 86.1%** and cutting Mean Absolute Error by more than half (1.043 down to 0.470).
+  <h4>Real-World Model Validation</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>Company Profile</th>
+        <th>Workforce</th>
+        <th>Actual Revenue</th>
+        <th>Linear Regression</th>
+        <th>Random Forest</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>NYC Allied Holdings, LLC</strong> <em>(Early-Stage)</em></td>
+        <td>0</td>
+        <td>$0</td>
+        <td>$157,096</td>
+        <td><strong>$0</strong></td>
+      </tr>
+      <tr>
+        <td><strong>W. W. Norton & Company, Inc.</strong> <em>(Mid-Market)</em></td>
+        <td>500</td>
+        <td>$180.77M</td>
+        <td>$5,847</td>
+        <td><strong>$124.54M</strong></td>
+      </tr>
+      <tr>
+        <td><strong>BBDO Worldwide, Inc.</strong> <em>(Enterprise)</em></td>
+        <td>10,000</td>
+        <td>$617.00M</td>
+        <td>$11.64M</td>
+        <td><strong>$755.76M</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-| Company Profile | Workforce | Actual Revenue | Linear Regression Prediction | Random Forest Prediction |
-| :--- | :--- | :--- | :--- | :--- |
-| **NYC Allied Holdings, LLC** *(Early-Stage)* | 0 | $0 | $157,096 | **$0** |
-| **W. W. Norton & Company, Inc.** *(Mid-Market Publisher)* | 500 | $180.77M | $5,847 | **$124.54M** |
-| **BBDO Worldwide, Inc.** *(Enterprise Agency)* | 10,000 | $617.00M | $11.64M | **$755.76M** |
+<div class="section-label">Product & Project Management</div>
+<div class="corp-card">
+  <h3>Enterprise Analytics Capstone Consultant (Spring 2027)</h3>
+  <div class="pill-row">
+    <span class="pill">Client Consulting</span>
+    <span class="pill">Sprint Planning</span>
+    <span class="pill">Pipeline Architecture</span>
+    <span class="pill">Cross-Functional Delivery</span>
+  </div>
+  <ul>
+    <li><strong>Scope & Stakeholder Alignment:</strong> Partnering with industry sponsors to translate ambiguous business requirements into structured technical deliverables and sprint milestones.</li>
+    <li><strong>Technical Execution Management:</strong> Coordinating data engineering workflows, validation benchmarks, and executive readouts from discovery through final deployment.</li>
+  </ul>
+</div>
 
----
-
-## Product & Project Management
-
-### Upcoming: Enterprise Capstone Consultant (Spring 2027)
-* **The Scope:** Leading client-facing technical consulting, pipeline architecture, and cross-functional deliverables partnered with enterprise industry leaders.
-* **Execution & Delivery:** Managing project scope, sprint milestones, and client stakeholder communications from discovery to final deployment.
-
-### Technical Workflow & Agile Experience
-* **Sprint Planning & Milestone Tracking:** Translating complex technical requirements (such as data cleaning pipelines and predictive models) into structured, actionable sprints.
-* **Cross-Functional Communication:** Bridging the gap between technical CS implementation and executive business strategy to align engineering goals with business outcomes.
-
----
-
-## Contact & Profiles
-* [LinkedIn]([https://www.linkedin.com/in/milka-ndubuisi/])
-* [Tableau Public](your-tableau-url)
-* [Email](mailto:bogumin@clemson.edu)
+<div class="section-label">Contact & Profiles</div>
+<div class="corp-card" style="padding: 1.25rem 2rem;">
+  <p style="margin: 0;">
+    <a href="your-linkedin-url">LinkedIn</a> &nbsp;&bull;&nbsp;
+    <a href="your-tableau-url">Tableau Public</a> &nbsp;&bull;&nbsp;
+    <a href="mailto:your-email@example.com">Email</a>
+  </p>
+</div>
