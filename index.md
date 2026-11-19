@@ -43,7 +43,7 @@ layout: default
   </div>
 
   <h4>Business Objective</h4>
-  <p>Identify structural determinants of annual revenue across New York State enterprises—evaluating workforce scale, corporate subsidiary status, and registration types—and prove why non-linear ensembles outperform traditional linear forecasting at scale.</p>
+  <p>Identify structural determinants of annual revenue across New York State enterprises evaluating workforce scale, corporate subsidiary status, and registration types and proving why non-linear ensembles outperform traditional linear forecasting at scale.</p>
 
   <h4>Data Engineering & Pipeline Architecture</h4>
   <ul>
@@ -92,24 +92,33 @@ layout: default
 
 <div class="section-label">Product & Project Management</div>
 <div class="corp-card">
-  <h3>Enterprise Analytics Capstone Consultant (Spring 2027)</h3>
+  <h3>Technical Project Delivery & Agile Execution</h3>
   <div class="pill-row">
-    <span class="pill">Client Consulting</span>
-    <span class="pill">Sprint Planning</span>
-    <span class="pill">Pipeline Architecture</span>
-    <span class="pill">Cross-Functional Delivery</span>
+    <span class="pill">Scope Management</span>
+    <span class="pill">Agile / Scrum</span>
+    <span class="pill">Stakeholder Communication</span>
+    <span class="pill">Roadmap & Timeline Tracking</span>
   </div>
+
+  <h4>Case Study: TigerSpot Campus Routing Prototype (Deloitte Innovation Challenge)</h4>
   <ul>
-    <li><strong>Scope & Stakeholder Alignment:</strong> Partnering with industry sponsors to translate ambiguous business requirements into structured technical deliverables and sprint milestones.</li>
-    <li><strong>Technical Execution Management:</strong> Coordinating data engineering workflows, validation benchmarks, and executive readouts from discovery through final deployment.</li>
+    <li><strong>Scope & Timeline:</strong> Led a cross-functional student team through a compressed multi-week sprint cycle to deliver an AI-driven campus parking and traffic routing prototype using SCDOT data.</li>
+    <li><strong>Resource & Constraint Management:</strong> Prioritized core MVP features (real-time lot congestion modeling and executive analytics dashboard) within strict academic and compute constraints, preventing scope creep ahead of final pitch deadlines.</li>
+    <li><strong>Key Deliverables:</strong> Delivered an interactive routing prototype, cleaned traffic dataset, and executive presentation deck to consulting judges.</li>
+  </ul>
+
+  <h4>Enterprise Analytics Capstone Consultant (Spring 2027)</h4>
+  <ul>
+    <li><strong>Stakeholder Alignment:</strong> Partnering with enterprise industry sponsors to translate ambiguous business problems into scoped technical milestones, sprint backlogs, and measurable KPIs.</li>
+    <li><strong>End-to-End Governance:</strong> Managing data pipeline architecture, validation benchmarks, and executive readouts from initial discovery through final handoff.</li>
   </ul>
 </div>
 
 <div class="section-label">Contact & Profiles</div>
 <div class="corp-card" style="padding: 1.25rem 2rem;">
   <p style="margin: 0;">
-    <a href="your-linkedin-url">LinkedIn</a> &nbsp;&bull;&nbsp;
+    <a href="https://www.linkedin.com/in/milka-ndubuisi/">LinkedIn</a> &nbsp;&bull;&nbsp;
     <a href="your-tableau-url">Tableau Public</a> &nbsp;&bull;&nbsp;
-    <a href="mailto:your-email@example.com">Email</a>
+    <a href="mailto:bogumin@clemson.com">Email</a>
   </p>
 </div>
