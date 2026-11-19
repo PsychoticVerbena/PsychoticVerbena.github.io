@@ -46,6 +46,6 @@ I compared a baseline Multiple Linear Regression against a Random Forest regress
 ---
 
 ## Contact & Profiles
-* [LinkedIn](your-linkedin-url)
+* [LinkedIn]([https://www.linkedin.com/in/milka-ndubuisi/])
 * [Tableau Public](your-tableau-url)
-* [Email](mailto:your-email@example.com)
+* [Email](mailto:bogumin@clemson.edu)
