@@ -43,7 +43,7 @@ layout: default
   </div>
 
   <h4>Business Objective</h4>
-  <p>Identify structural determinants of annual revenue across New York State enterprises—evaluating workforce scale, corporate subsidiary status, and registration types—and prove why non-linear ensembles outperform traditional linear forecasting at scale.</p>
+  <p>Identify structural determinants of annual revenue across New York State enterprises evaluating workforce scale, corporate subsidiary status, and registration types and proving why non-linear ensembles outperform traditional linear forecasting at scale.</p>
 
   <h4>Data Engineering & Pipeline Architecture</h4>
   <ul>
@@ -108,8 +108,8 @@ layout: default
 <div class="section-label">Contact & Profiles</div>
 <div class="corp-card" style="padding: 1.25rem 2rem;">
   <p style="margin: 0;">
-    <a href="your-linkedin-url">LinkedIn</a> &nbsp;&bull;&nbsp;
+    <a href="https://www.linkedin.com/in/milka-ndubuisi/">LinkedIn</a> &nbsp;&bull;&nbsp;
     <a href="your-tableau-url">Tableau Public</a> &nbsp;&bull;&nbsp;
-    <a href="mailto:your-email@example.com">Email</a>
+    <a href="mailto:bogumin@clemson.com">Email</a>
   </p>
 </div>
