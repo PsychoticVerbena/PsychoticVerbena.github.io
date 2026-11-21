@@ -112,6 +112,14 @@ layout: default
     <li><strong>Stakeholder Alignment:</strong> Partnering with enterprise industry sponsors to translate ambiguous business problems into scoped technical milestones, sprint backlogs, and measurable KPIs.</li>
     <li><strong>End-to-End Governance:</strong> Managing data pipeline architecture, validation benchmarks, and executive readouts from initial discovery through final handoff.</li>
   </ul>
+
+  <h4>Case Study: Freelance Web & Technical Consulting (Client Delivery)</h4>
+  <ul>
+    <li><strong>Scope & Contract Governance:</strong> Managed end-to-end client engagements from initial discovery through deployment—drafting clear project scopes, milestone schedules, and fixed-budget deliverables to prevent scope creep.</li>
+    <li><strong>Agile Execution & Stakeholder Alignment:</strong> Ran iterative two-week feedback sprints with non-technical business owners, translating operational requirements into functional web deployments without missed deadlines.</li>
+    <li><strong>Constraint & Risk Management:</strong> Balanced zero-cost hosting architectures and strict client timelines by standardizing modular front-end templates and automated deployment pipelines.</li>
+    <li><strong>Featured Deployment:</strong> <a href="YOUR_PUBLIC_CLIENT_URL">Live Client Application</a> <em>(Additional client engagements omitted due to confidentiality agreements)</em>.</li>
+  </ul>
 </div>
 
 <div class="section-label">Contact & Profiles</div>
