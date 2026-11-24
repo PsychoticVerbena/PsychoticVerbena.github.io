@@ -133,8 +133,8 @@ layout: default
 <div class="section-label">Contact & Profiles</div>
 <div class="corp-card" style="padding: 1.25rem 2rem;">
   <p style="margin: 0;">
-    <a href="https://www.linkedin.com/in/milka-ndubuisi/">LinkedIn</a> &nbsp;&bull;&nbsp;
-    <a href="https://public.tableau.com/app/profile/milka.ndubuisi/vizzes">Tableau Public</a> &nbsp;&bull;&nbsp;
-    <a href="mailto:bogumin@clemson.com">Email</a>
+    <a href="https://www.linkedin.com/in/milka-ndubuisi/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &nbsp;&bull;&nbsp;
+    <a href="https://public.tableau.com/app/profile/milka.ndubuisi/vizzes" target="_blank" rel="noopener noreferrer">Tableau Public</a> &nbsp;&bull;&nbsp;
+    <a href="mailto:bogumin@clemson.com" target="_blank" rel="noopener noreferrer">Email</a>
   </p>
 </div>
