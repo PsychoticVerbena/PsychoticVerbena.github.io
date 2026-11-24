@@ -98,6 +98,41 @@ layout: default
 </div>
 </div>
 
+<div class="corp-card">
+  <h3>Microscopy Cell-Tracking Annotation & Benchmark Validation</h3>
+  <div class="pill-row">
+    <span class="pill">ImageJ / Fiji</span>
+    <span class="pill">TrackScheme</span>
+    <span class="pill">Data Visualization Lab</span>
+    <span class="pill">Ground-Truth Annotation</span>
+  </div>
+
+  <div class="kpi-grid">
+    <div class="kpi-box">
+      <div class="kpi-number">5,000+</div>
+      <div class="kpi-label">Microscopy Sequences Processed</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-number">LFCT</div>
+      <div class="kpi-label">Benchmark Dataset Validation</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-number">Gold-Standard</div>
+      <div class="kpi-label">Human-Validated Ground Truth</div>
+    </div>
+  </div>
+
+  <h4>Research Objective</h4>
+  <p>Collaborating within Clemson University's Data Visualization Research Lab to build high-fidelity, human-annotated ground-truth tracking datasets for biological microscopy research and academic publication.</p>
+
+  <h4>Methodology & Annotation Workflow</h4>
+  <ul>
+    <li><strong>Precision Ground-Truth Generation:</strong> Utilized ImageJ (Fiji) and TrackScheme to manually trace, verify, and curate complex cellular lineage and movement tracks across thousands of image frames.</li>
+    <li><strong>Large-Scale Dataset Validation:</strong> Hand-inspected and validated over 5,000 microscopy image sequences to ensure strict data integrity and eliminate tracking artifacts for the LFCT benchmark dataset.</li>
+    <li><strong>Research Collaboration:</strong> Partnered closely with graduate researchers to establish consistent annotation standards and clean data structures supporting upcoming academic manuscript submissions.</li>
+  </ul>
+</div>
+
 <div class="section-label">Product & Project Management</div>
 <div class="corp-card">
   <h3>Technical Project Delivery & Agile Execution</h3>
