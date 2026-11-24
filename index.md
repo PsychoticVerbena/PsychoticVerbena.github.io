@@ -123,7 +123,7 @@ layout: default
 
   <h4>Case Study: Freelance Web & Technical Consulting (Client Delivery)</h4>
   <ul>
-    <li><strong>Scope & Contract Governance:</strong> Managed end-to-end client engagements from initial discovery through deployment—drafting clear project scopes, milestone schedules, and fixed-budget deliverables to prevent scope creep.</li>
+    <li><strong>Scope & Contract Governance:</strong> Managed end-to-end client engagements from initial discovery through deployment, drafting clear project scopes, milestone schedules, and fixed-budget deliverables to prevent scope creep.</li>
     <li><strong>Agile Execution & Stakeholder Alignment:</strong> Ran iterative two-week feedback sprints with non-technical business owners, translating operational requirements into functional web deployments without missed deadlines.</li>
     <li><strong>Constraint & Risk Management:</strong> Balanced zero-cost hosting architectures and strict client timelines by standardizing modular front-end templates and automated deployment pipelines.</li>
     <li><strong>Featured Deployment:</strong> <a href="https://www.bogdanandubuisi.com/" target="_blank" rel="noopener noreferrer">Live Client Application</a> <em>(Additional client engagements omitted due to confidentiality agreements)</em>.</li>
