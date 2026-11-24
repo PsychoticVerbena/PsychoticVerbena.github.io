@@ -45,6 +45,11 @@ body {
   padding: 2.5rem 1.5rem;
 }
 
+.main-content h4 {
+  color: #2563eb;
+  font-weight: 700;
+}
+
 /* Section Headers with Consulting Accent Bar */
 .section-label {
   text-transform: uppercase;
@@ -84,10 +89,6 @@ body {
   color: #0f172a;
 }
 
-.main-content h4 {
-  color: #2563eb;
-  font-weight: 700;
-}
 
 /* KPI Metric Strip */
 .kpi-grid {
